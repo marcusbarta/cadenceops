@@ -1,0 +1,16 @@
+# Cloudflare Pages reads this file from the build output root (site/ itself,
+# since this project has no build step — site is served as-is).
+# https://developers.cloudflare.com/pages/configuration/headers/
+#
+# Static marketing/legal pages only — no app code, no Supabase calls, no
+# service worker. Tighter than the app's public/_headers: no connect-src for
+# Supabase, no worker-src, no manifest-src.
+#
+# NOT verified against a live deploy — check the console for CSP violation
+# reports on a preview deploy before assuming nothing broke.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
