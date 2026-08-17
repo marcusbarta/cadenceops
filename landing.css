@@ -5,9 +5,9 @@
   --border:    #e4dbd0;
   --text:      #7a6a5e;
   --text-h:    #1a1209;
-  --accent:    #e8502a;
-  --accent-dim: rgba(232, 80, 42, 0.10);
-  --accent-border: rgba(232, 80, 42, 0.30);
+  --accent:    #1e8a4c;
+  --accent-dim: rgba(30, 138, 76, 0.10);
+  --accent-border: rgba(30, 138, 76, 0.30);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -53,7 +53,7 @@ a { color: var(--accent); }
 }
 
 .nav-logo {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 1.3rem;
   color: var(--text-h);
@@ -103,7 +103,7 @@ a { color: var(--accent); }
 }
 
 .hero h1 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   color: var(--text-h);
   font-size: clamp(2.2rem, 5vw, 3.4rem);
@@ -199,7 +199,7 @@ section + section { border-top: 1px solid var(--border); }
 }
 
 .section-head h2 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   color: var(--text-h);
   font-size: 1.9rem;
@@ -224,7 +224,7 @@ section + section { border-top: 1px solid var(--border); }
 }
 
 .feature-card h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   color: var(--text-h);
   font-size: 1.05rem;
   margin: 0 0 8px;
@@ -257,7 +257,7 @@ section + section { border-top: 1px solid var(--border); }
 }
 
 .step h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   color: var(--text-h);
   font-size: 1rem;
   margin: 0 0 8px;
@@ -288,7 +288,7 @@ section + section { border-top: 1px solid var(--border); }
 }
 
 .plan-name {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   color: var(--text-h);
   font-size: 1.2rem;
@@ -322,7 +322,7 @@ section + section { border-top: 1px solid var(--border); }
 }
 
 .cta-banner h2 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   color: var(--text-h);
   font-size: 2rem;

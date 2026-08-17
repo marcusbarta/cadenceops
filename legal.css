@@ -5,7 +5,7 @@
   --border:    #e4dbd0;
   --text:      #7a6a5e;
   --text-h:    #1a1209;
-  --accent:    #e8502a;
+  --accent:    #1e8a4c;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -45,7 +45,7 @@ body {
 .legal-nav a:hover { text-decoration: underline; }
 
 h1 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   color: var(--text-h);
   font-size: 2rem;
@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Fraunces", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   color: var(--text-h);
   font-size: 1.25rem;
