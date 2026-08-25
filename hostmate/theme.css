@@ -1,0 +1,5 @@
+:root {
+  --accent: #FF4000;
+  --accent-dim: rgba(255, 64, 0, 0.10);
+  --accent-border: rgba(255, 64, 0, 0.30);
+}

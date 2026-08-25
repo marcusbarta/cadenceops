@@ -5,9 +5,9 @@
   --border:    #e4dbd0;
   --text:      #7a6a5e;
   --text-h:    #1a1209;
-  --accent:    #1e8a4c;
-  --accent-dim: rgba(30, 138, 76, 0.10);
-  --accent-border: rgba(30, 138, 76, 0.30);
+  --accent:    #008000;
+  --accent-dim: rgba(0, 128, 0, 0.10);
+  --accent-border: rgba(0, 128, 0, 0.30);
 }
 @media (prefers-color-scheme: dark) {
   :root {

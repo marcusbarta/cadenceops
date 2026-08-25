@@ -5,7 +5,7 @@
   --border:    #e4dbd0;
   --text:      #7a6a5e;
   --text-h:    #1a1209;
-  --accent:    #1e8a4c;
+  --accent:    #FF4000;
 }
 @media (prefers-color-scheme: dark) {
   :root {
