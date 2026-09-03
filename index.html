@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/landing.css" />
+    <link rel="stylesheet" href="/theme.css" />
     <title>Cadence Ops — Software for the pace of hospitality</title>
     <meta name="description" content="Cadence Ops builds focused tools for venues that run on timing — HostMate for the host stand, Cue for the room's music. More tools for the floor are on the way." />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cadence Ops — Software for the pace of hospitality" />
     <meta property="og:description" content="A growing suite of focused tools for venues that run on timing — HostMate and Cue, with more on the way." />
+    <meta property="og:image" content="https://cadenceops.com.au/og-image.png" />
+    <meta property="og:url" content="https://cadenceops.com.au" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cadence Ops — Software for the pace of hospitality" />
+    <meta name="twitter:description" content="A growing suite of focused tools for venues that run on timing — HostMate and Cue, with more on the way." />
+    <meta name="twitter:image" content="https://cadenceops.com.au/og-image.png" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -60,6 +67,26 @@
           <a class="btn btn-primary" href="/hostmate">Explore HostMate</a>
           <a class="btn btn-secondary" href="mailto:marcusbarta@icloud.com?subject=Cadence%20Ops%20—%20Enquiry">Get in touch</a>
         </div>
+
+        <div class="tempo-strip">
+          <div class="tempo-track" aria-hidden="true">
+            <span class="tempo-marker"></span>
+          </div>
+          <ul class="tempo-stops" aria-hidden="true">
+            <li>Prep</li>
+            <li>Doors</li>
+            <li>Rush</li>
+            <li>Last Call</li>
+            <li>Close</li>
+          </ul>
+          <div class="tempo-readout" aria-hidden="true">
+            <span class="tempo-pulse"></span>
+            <span class="tempo-bpm">132</span>
+            <span class="tempo-unit">bpm</span>
+            <span class="tempo-phase-label">Rush</span>
+          </div>
+          <p class="tempo-caption">Prep, doors, rush, last call, close — HostMate keeps the tables in step and Cue keeps the room's music in step, the whole way through.</p>
+        </div>
       </div>
     </header>
 
@@ -69,20 +96,30 @@
           <h2>Products</h2>
           <p>One suite, built around the rhythm of a real venue — not a generic platform bolted onto hospitality afterward.</p>
         </div>
-        <div class="features">
-          <div class="feature-card">
-            <h3>HostMate</h3>
-            <p>A real-time booking board and shift checklist for the host stand — live table map, auto-generated checklist, and multi-device sync. Available now.</p>
-            <p><a href="/hostmate">See HostMate →</a></p>
+        <div class="tickets">
+          <div class="ticket">
+            <div class="ticket-holes" aria-hidden="true"></div>
+            <div class="ticket-body">
+              <span class="ticket-badge">Live</span>
+              <h3 class="ticket-name">HostMate</h3>
+              <p>A real-time booking board and shift checklist for the host stand — live table map, auto-generated checklist, and multi-device sync.</p>
+              <a class="ticket-link" href="/hostmate">See HostMate →</a>
+            </div>
           </div>
-          <div class="feature-card">
-            <h3>Cue</h3>
-            <p>A crowd-aware, Spotify-connected playlist system — it switches music by time slot and crowd level automatically, so the room always sounds right. Available now.</p>
-            <p><a href="/cue">See Cue →</a></p>
+          <div class="ticket">
+            <div class="ticket-holes" aria-hidden="true"></div>
+            <div class="ticket-body">
+              <span class="ticket-badge">Live</span>
+              <h3 class="ticket-name">Cue</h3>
+              <p>A crowd-aware, Spotify-connected playlist system — it switches music by time slot and crowd level automatically, so the room always sounds right.</p>
+              <a class="ticket-link" href="/cue">See Cue →</a>
+            </div>
           </div>
-          <div class="feature-card">
-            <h3>More on the way</h3>
-            <p>Cadence Ops is just getting started. Future tools will extend the same real-time, timing-first approach to other parts of running a venue.</p>
+          <div class="ticket ticket--empty">
+            <div class="ticket-body">
+              <h3 class="ticket-name">Next up</h3>
+              <p>Cadence Ops is just getting started. Future tools will extend the same real-time, timing-first approach to other parts of running a venue.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -90,9 +127,11 @@
 
     <section id="about">
       <div class="wrap">
+        <div class="rhythm-divider" aria-hidden="true"></div>
         <div class="section-head">
           <h2>Why Cadence</h2>
           <p>A good shift has a rhythm — bookings, prep, seating, turnover, all in step. Cadence Ops software is built to keep that rhythm smooth, not fight against it.</p>
+          <p>Most tools are built for a slow Tuesday and hope the Friday rush doesn't notice. We build for the rush first — for the exact minute a table turns, a shift handoff happens, or last call hits — and let everything calmer than that take care of itself.</p>
         </div>
       </div>
     </section>
@@ -116,5 +155,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/home.js" defer></script>
   </body>
 </html>
